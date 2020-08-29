@@ -12,6 +12,18 @@
   padding: 25vh 50px 40px 50px;
 }
 
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
 .banner__info > button {
   background-color: #ff7779;
   color: white;
