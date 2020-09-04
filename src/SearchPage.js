@@ -1,6 +1,7 @@
 import React from "react";
 import "./SearchPage.css";
 import { Button } from "@material-ui/core";
+import SearchResult from "./SearchResult";
 
 const SearchPage = () => {
   return (
@@ -14,7 +15,7 @@ const SearchPage = () => {
         <Button variant="outlined">Rooms and beds</Button>
         <Button variant="outlined">More filters</Button>
       </div>
-      {/* <SearchResult
+      <SearchResult
         img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
         location="Private room in center of London"
         title="Stay at this spacious Edwardian House"
@@ -78,7 +79,7 @@ const SearchPage = () => {
         star={3.85}
         price="£90 / night"
         total="£650 total"
-      /> */}
+      />
     </div>
   );
 };
